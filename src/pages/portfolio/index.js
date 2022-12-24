@@ -26,7 +26,7 @@ export const Portfolio = () => {
                 <img src={process.env.PUBLIC_URL + data.img} alt="" />
                 <div className="content">
                   <p>{data.desctiption}</p>
-                  <a href={data.link} target="_blank">view project</a>
+                  <a href={data.link} target="_blank" hout rel="noreferrer">view project</a>
                 </div>
               </div>
             );

@@ -3,7 +3,6 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
-import { Link } from "react-router-dom";
 
 // pages
 import { About } from "../about";
@@ -68,7 +67,7 @@ export const Home = () => {
                     </div>
                   </a>
 
-                  <a className="ac_btn btn" download={downloadCV} target="_blank" href={downloadCV}>
+                  <a className="ac_btn btn" download={downloadCV} target="_blank" rel="noreferrer" href={downloadCV}>
                     Download My CV
                     <div className="ring one"></div>
                     <div className="ring two"></div>
