@@ -104,7 +104,7 @@ const skills = [
     value: 95,
   },
   {
-    name: "Regression Testing understanding",
+    name: "Regression Testing",
     value: 80,
   },
   {
@@ -112,7 +112,7 @@ const skills = [
     value: 80,
   },
   {
-    name: "Background In Agile Environments",
+    name: "Background In Agile Enviro",
     value: 85,
   },
   {
