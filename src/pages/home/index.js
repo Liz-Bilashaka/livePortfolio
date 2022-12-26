@@ -48,7 +48,7 @@ export const Home = () => {
                   />
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
-                <div className="intro_btn-action pb-5">
+                <div className="intro_btn-action pb-3">
                   <a href="#portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
                       My Portfolio
@@ -66,6 +66,9 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </a>
+
+                </div>
+                <div className="intro_btn-action pb-5">
 
                   <a className="ac_btn btn" download={downloadCV} target="_blank" rel="noreferrer" href={downloadCV}>
                     Download My CV
