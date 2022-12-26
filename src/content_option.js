@@ -2,15 +2,15 @@ const logotext = "LizB";
 const meta = {
   title: "Liz B",
   description:
-    "I’m Liz Bilashaka - Front-end developer and software tester ,currently working in New Zealand",
+    "I’m Liz Bilashaka - Manual software tester and Front-end developer and  ,currently working in Auckland, New Zealand",
 };
 
 const introdata = {
   title: "Liz Bilashaka",
   animated: {
-    first: "I'm a front-end developer",
-    second: "I'm a software tester ",
-    third: "I'm a Contractor ",
+    first: "I'm a manual software tester ",
+    second: "I'm a front-end developer ",
+    third: "I'm a freelancer ",
   },
   description:
     "Welcome to my Portfolio. This website is built purely on Javascript, CSS and HTML. It contains some of my demos. Please find my CV attached below",
@@ -20,7 +20,7 @@ const introdata = {
 const dataabout = {
   title: " More about me",
   aboutme:
-    " I'm a front-end developer and software tetster who has a passion for technology and the positive impact it creates in business transformation and process improvement. Moreover, I am Innovative and optimized solution seeker. Additionally, I am a strong team player and have excellent interpersonal skills.",
+    " I'm a software tetster and front-end developer who has a passion for technology and the positive impact it creates in business transformation and process improvement. Moreover, I am Innovative and optimized solution seeker. Additionally, I am a strong team player and have excellent interpersonal skills.",
 };
 const worktimeline = [
   {
