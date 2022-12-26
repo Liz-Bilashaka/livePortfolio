@@ -53,75 +53,75 @@ const worktimeline = [
 const skills = [
   {
     name: "JavaScript",
-    value: 90,
+    value: 60,
   },
   {
     name: "CSS3",
-    value: 90,
+    value: 70,
   },
   {
     name: "HTML5",
-    value: 100,
+    value: 80,
   },
   {
     name: "React",
-    value: 80,
+    value: 60,
   },
   {
     name: "Bootstrap",
-    value: 90,
+    value: 60,
   },
   {
     name: "Postman",
-    value: 85,
+    value: 65,
   },
   {
     name: "Technical Writing",
-    value: 90,
+    value: 75,
   },
   {
     name: "Testing plans",
-    value: 85,
+    value: 70,
   },
   {
     name: "Bug tracking",
-    value: 95,
+    value: 70,
   },
   {
     name: "Test implementation",
-    value: 90,
+    value: 65,
   },
   {
     name: "Defect monitoring",
-    value: 90,
+    value: 70,
   },
   {
     name: "Manual test case preparation",
-    value: 90,
+    value: 65,
   },
   {
     name: "Documentation skills",
-    value: 95,
+    value: 65,
   },
   {
     name: "Regression Testing",
-    value: 80,
+    value: 70,
   },
   {
     name: "Test Planning",
-    value: 80,
+    value: 60,
   },
   {
     name: "Background In Agile Enviro",
-    value: 85,
+    value: 70,
   },
   {
     name: "Debugging",
-    value: 95,
+    value: 70,
   },
   {
     name: "Cross-Platform Testing",
-    value: 85,
+    value: 65,
   },
 ];
 
