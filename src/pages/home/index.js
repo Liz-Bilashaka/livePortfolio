@@ -10,7 +10,7 @@ import { ContactUs } from "../contact";
 import { Portfolio } from "../portfolio";
 
 export const Home = () => {
-  const downloadCV = process.env.PUBLIC_URL + '/cv/LizBResume.pdf'
+  const downloadCV = process.env.PUBLIC_URL + '/cv/Liz Bilashaka Manual Software Tester Resume.pdf'
   
   return (
     <HelmetProvider>

@@ -10,7 +10,7 @@ const introdata = {
   animated: {
     first: "I'm a manual software tester ",
     second: "I'm a front-end developer ",
-    third: "I'm a freelancer ",
+    third: "I'm a contractor ",
   },
   description:
     "Welcome to my Portfolio. This website is built purely on Javascript, CSS and HTML. It contains some of my demos. Please find my CV attached below",
@@ -20,19 +20,15 @@ const introdata = {
 const dataabout = {
   title: " More about me",
   aboutme:
-    " I'm a software tetster and front-end developer who has a passion for technology and the positive impact it creates in business transformation and process improvement. Moreover, I am Innovative and optimized solution seeker. Additionally, I am a strong team player and have excellent interpersonal skills.",
+    " I'm a software tetster and front-end developer who has a passion for technology and the positive impact it creates in business transformation and process improvement. Moreover, I am an innovative and optimized solution seeker. Additionally, I am a strong team player and have excellent interpersonal skills.",
 };
 const worktimeline = [
   {
     jobtitle: "Manual Software Tester",
     where: "GameZovah Ltd ",
-    date: "November 2022 - present",
+    date: "November 2021 - present",
   },
-  {
-    jobtitle: "Manual Software Tester",
-    where: "Africana Hair Braiding Studio Ltd",
-    date: "October 2022 - present ",
-  },
+
   {
     jobtitle: "Customer Service Advisor ",
     where: "Xplor Technologies ",
@@ -137,7 +133,7 @@ const education = [
   {
     Instution: "Skill Soft",
     course: "ISTQB Certified Tester Foundation Level",
-    Date: "November 2022 - Present",
+    Date: "December 2022 - Present",
   },
 
   {
@@ -148,13 +144,13 @@ const education = [
 
   {
     Instution: "Auckland University of Technology",
-    course: "BSc (Information Systems) 1st Honours",
+    course: "BBUs (Information Systems) 1st Honours",
     Date: "Feb 2021 – 2022",
   },
 
   {
     Instution: "Auckland University of Technology",
-    course: "BSc (Information Systems)",
+    course: "BBus (Information Systems)",
     Date: "Feb 2019 – 2021",
   },
 
