@@ -92,7 +92,7 @@ const skills = [
     value: 70,
   },
   {
-    name: "Manual test case preparation",
+    name: "Test case preparation",
     value: 65,
   },
   {
@@ -108,7 +108,7 @@ const skills = [
     value: 60,
   },
   {
-    name: "Background In Agile Enviro",
+    name: "Agile Environment",
     value: 70,
   },
   {
@@ -131,32 +131,32 @@ const services = [
 
 const education = [
   {
-    Instution: "Skill Soft",
-    course: "ISTQB Certified Tester Foundation Level",
+    Institution: "Skill Soft",
+    Course: "ISTQB Certified Tester Foundation Level",
     Date: "December 2022 - Present",
   },
 
   {
-    Instution: "Skill Soft",
-    course: "Front End Developer",
+    Institution: "Skill Soft",
+    Course: "Front End Developer",
     Date: "May - October 2022",
   },
 
   {
-    Instution: "Auckland University of Technology",
-    course: "BBUs (Information Systems) 1st Honours",
+    Institution: "Auckland University of Technology",
+    Course: "BBUs (Information Systems) 1st Honours",
     Date: "Feb 2021 – 2022",
   },
 
   {
-    Instution: "Auckland University of Technology",
-    course: "BBus (Information Systems)",
+    Institution: "Auckland University of Technology",
+    Course: "BBus (Information Systems)",
     Date: "Feb 2019 – 2021",
   },
 
   {
-    Instution: "Auckland University of Technology",
-    course: "Certificate in Law",
+    Institution: "Auckland University of Technology",
+    Course: "Certificate in Law",
     Date: "Feb 2019 – 2019",
   },
 ];

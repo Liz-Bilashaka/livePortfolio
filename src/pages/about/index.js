@@ -105,8 +105,8 @@ export const About = () => {
               {education.map((data, i) => {
               return (
                 <tr key={i}>
-                  <th scope="row">{data.Instution}</th>
-                  <td>{data.course}</td>
+                  <th scope="row">{data.Institution}</th>
+                  <td>{data.Course}</td>
                   <td>{data.Date}</td>
                 </tr>
               );
