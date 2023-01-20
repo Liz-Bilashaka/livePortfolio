@@ -12,6 +12,7 @@ import { Portfolio } from "../portfolio";
 export const Home = () => {
   const downloadCV = process.env.PUBLIC_URL + '/cv/Liz Bilashaka Resume.pdf'
   
+  
   return (
     <HelmetProvider>
       <section id="home" className="home">
