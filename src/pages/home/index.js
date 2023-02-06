@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
-import { introdata, meta } from "../../content_option";
+import { introdata, meta, certificationLogo} from "../../content_option";
 
 // pages
 import { About } from "../about";
@@ -10,9 +10,8 @@ import { ContactUs } from "../contact";
 import { Portfolio } from "../portfolio";
 
 export const Home = () => {
-  const downloadCV = process.env.PUBLIC_URL + '/cv/Liz Bilashaka Resume.pdf'
+  const downloadCV = process.env.PUBLIC_URL + "/cv/Liz Bilashaka Resume.pdf";
 
-  
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -48,6 +47,20 @@ export const Home = () => {
                     }}
                   />
                 </h1>
+                {/* <div className="istqbStyle">
+                 
+                  <img src={ISTQB_Image_Link} alt="ISTQB manual testing" />
+                </div> */}
+                <div className="istqbStyle">
+                  {certificationLogo.map((data, i) => {
+                    return (
+                      <div key={i} className="">
+                        <img src={process.env.PUBLIC_URL + data.img} alt="" />
+                      </div>
+                    );
+                  })}
+                </div>
+
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-3">
                   <a href="#portfolio" className="text_2">
@@ -67,17 +80,20 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </a>
-
                 </div>
                 <div className="intro_btn-action pb-5">
-
-                  <a className="ac_btn btn" download={downloadCV} target="_blank" rel="noreferrer" href={downloadCV}>
+                  <a
+                    className="ac_btn btn"
+                    download={downloadCV}
+                    target="_blank"
+                    rel="noreferrer"
+                    href={downloadCV}
+                  >
                     Download My CV
                     <div className="ring one"></div>
                     <div className="ring two"></div>
                     <div className="ring three"></div>
                   </a>
-
                 </div>
               </div>
             </div>
@@ -98,7 +114,7 @@ export const Home = () => {
           className="mb-5 mt-3"
           style={{ textAlign: "center", height: "10rem" }}
         >
-          &copy;Copyright LizB 2022 All rights reserved
+          &copy;Copyright LizB {new Date().getFullYear()} All rights reserved
         </div>
       </section>
     </HelmetProvider>

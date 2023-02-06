@@ -7,6 +7,20 @@ section {
     transition: all .5s ease-in;
 }
 
+.istqbStyle {
+    flex-direction: row;
+    display: flex;
+    /* /* flex-wrap: wrap;
+    align-items: center; */
+}
+
+.istqbStyle div {
+    height: 100px;
+    width: 200px;
+    display: flex;
+    /* justify-content: center; */
+}
+
 .who_am_I {
     font-family: Cinzel;
 }
@@ -193,6 +207,19 @@ section {
 }
 
 @media (max-width:991.98px) {
+    .istqbStyle {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .istqbStyle div {
+        height: 200px;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
     .intro_sec .h_bg-image {
         height: 600px;
         min-height: 75vh;

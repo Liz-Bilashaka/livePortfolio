@@ -8,19 +8,19 @@ const meta = {
 const introdata = {
   title: "Liz Bilashaka",
   animated: {
-    first: "I'm a manual software tester ",
-    second: "I'm a front-end developer ",
-    third: "I'm a contractor ",
+    first: "I'm a quality assurance specialist",
+    second: "I'm a manual software tester",
+    third: "I'm a front-end developer",
   },
   description:
-    "Welcome to my Portfolio. This website is built purely on Javascript, CSS and HTML. It contains some of my demos. Please find my CV attached below",
+    "Welcome to my Portfolio. This website is built purely on Javascript, React, CSS3 and HTML5. It contains some of my demos. Please find my CV attached below",
   your_img_url: "/img/Porfolio.jpeg",
 };
 
 const dataabout = {
   title: " More about me",
   aboutme:
-    " I'm a software tetster and front-end developer who has a passion for technology and the positive impact it creates in business transformation and process improvement. Moreover, I am an innovative and optimized solution seeker. Additionally, I am a strong team player and have excellent interpersonal skills.",
+    " Certified ISTQB software tester professional and quality assurance specialist with a history of meeting company goals utilizing consistent and organized practices. Skilled in working under pressure and adapting to new situations and challenges to best enhance the organizational brand. Familiar with handling multiple projects in highly competitive environments. Great interpersonal and collaboration skills.",
 };
 const worktimeline = [
   {
@@ -133,7 +133,7 @@ const education = [
   {
     Institution: "Skill Soft",
     Course: "ISTQB Certified Tester Foundation Level",
-    Date: "December 2022 - Present",
+    Date: "December 2022 - January 2023",
   },
 
   {
@@ -182,6 +182,19 @@ const dataportfolio = [
   },
 ];
 
+const certificationLogo = [
+  {
+    img:  "/img/ISTQB.png",
+  },
+  // {
+  //   img: "/img/ISTQB.png",
+
+  // },
+  // {
+  //   img:  "/img/ISTQB.png",
+  // },
+];
+
 const contactme = [
   {
     YOUR_FONE: "(+64) 21 0606 840",
@@ -216,4 +229,5 @@ export {
   logotext,
   education,
   contactme,
+  certificationLogo
 };
