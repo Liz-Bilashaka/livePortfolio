@@ -37,12 +37,18 @@ const worktimeline = [
   {
     jobtitle: "Platform Success Manager",
     where: "Digital Oracles",
-    date: "2020 – 2021",
+    date: "November 2020 – January 2021",
   },
   {
-    jobtitle: "Store & Data Manager",
-    where: "Africana Hair Braiding Studio Ltd",
-    date: "2016 – 2019",
+    jobtitle: "Business Analyst ",
+    where: "AHBS ",
+    date: "January 2016 – September 2019",
+  },
+
+   {
+    jobtitle: "Sales Assistant",
+    where: "AHBS",
+    date: "June 2014 - November 2015",
   },
 ];
 
@@ -126,6 +132,24 @@ const services = [
     title: "Software Testing",
     description:
       "Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance. ",
+  },
+
+  {
+    title: "Business Analyst",
+    description:
+      "Business analysts assess how organisations are performing and help them improve their processes and systems. They conduct research and analysis in order to come up with solutions to business problems and help to introduce these solutions to businesses and their clients.",
+  },
+
+  {
+    title: "QA Specialist",
+    description:
+      "A Quality Assurance Specialist is a professional who is responsible for monitoring, inspecting and proposing measures to correct or improve an organization's final products in order to meet established quality standards.",
+  },
+
+  {
+    title: "Project Managment",
+    description:
+      "A project manager is responsible for planning and overseeing projects within an organisation, from the initial ideation through to completion. They coordinate people and processes to deliver projects on time, within budget and with the desired outcomes aligned to objectives.",
   },
 ];
 
