@@ -32,7 +32,7 @@ const worktimeline = [
   {
     jobtitle: "Software Tester",
     where: "GameZovah Ltd ",
-    date: "November 2021 - April 2023",
+    date: "November 2021 - April 2023", 
   },
 
   {
