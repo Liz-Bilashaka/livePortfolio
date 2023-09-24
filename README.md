@@ -1,6 +1,6 @@
 ### Description
 
-A simple portfolio built with React. 
+Liz Portfolio
 
 
 
