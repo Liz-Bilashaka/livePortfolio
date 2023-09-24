@@ -2,31 +2,37 @@ const logotext = "LizB";
 const meta = {
   title: "Liz B",
   description:
-    "I’m Liz Bilashaka - Manual software tester and Front-end developer and  ,currently working in Auckland, New Zealand",
+    "I’m Liz Bilashaka - Test Analyst, currently working in Auckland, New Zealand",
 };
 
 const introdata = {
   title: "Liz Bilashaka",
   animated: {
-    first: "I'm a quality assurance specialist",
-    second: "I'm a manual software tester",
-    third: "I'm a front-end developer",
+    first: "I'm an Automation Engineer",
+    second: "I'm a Test Analyst",
+    third: "I'm a QA specialist",
   },
   description:
-    "Welcome to my Portfolio. This website is built purely on Javascript, React, CSS3 and HTML5. It contains some of my demos. Please find my CV attached below",
+    "Welcome to my Portfolio. This website is built purely on Javascript, React, CSS3 and HTML5. Please find my CV attached below",
   your_img_url: "/img/Porfolio.jpeg",
 };
 
 const dataabout = {
   title: " More about me",
   aboutme:
-    " Certified ISTQB software tester professional and quality assurance specialist with a history of meeting company goals utilizing consistent and organized practices. Skilled in working under pressure and adapting to new situations and challenges to best enhance the organizational brand. Familiar with handling multiple projects in highly competitive environments. Great interpersonal and collaboration skills.",
+    " I am an ISTQB certified tester at both the foundation and test automation engineer levels. I hold Professional Scrum Master 1 and 2 certifications. My career objective is to leverage my extensive expertise as a dedicated software tester and quality assurance specialist to drive consistent and organized practices, ensuring the achievement of company objectives. I thrive in high-pressure environments, excelling at adapting to new challenges to enhance the organizational brand. I aim to contribute my exceptional interpersonal and collaboration skills to foster a dynamic, goal-driven team environment. Together, we'll create exceptional results and exceed our organizational goals. "
 };
 const worktimeline = [
   {
-    jobtitle: "Manual Software Tester",
+    jobtitle: "Test Analyst",
+    where: "Foster Moore",
+    date: "May 2023 - Present",
+  },
+
+  {
+    jobtitle: "Software Tester",
     where: "GameZovah Ltd ",
-    date: "November 2021 - present",
+    date: "November 2021 - April 2023",
   },
 
   {
@@ -54,24 +60,24 @@ const worktimeline = [
 
 const skills = [
   {
-    name: "JavaScript",
-    value: 60,
+    name: "Scrum",
+    value: 90,
   },
   {
-    name: "CSS3",
+    name: "Jira",
+    value: 90,
+  },
+  {
+    name: "Selenium",
     value: 70,
   },
   {
-    name: "HTML5",
+    name: "Test Planning",
     value: 80,
   },
   {
-    name: "React",
-    value: 60,
-  },
-  {
-    name: "Bootstrap",
-    value: 60,
+    name: "Debugging",
+    value: 80,
   },
   {
     name: "Postman",
@@ -82,16 +88,12 @@ const skills = [
     value: 75,
   },
   {
-    name: "Testing plans",
-    value: 70,
-  },
-  {
     name: "Bug tracking",
     value: 70,
   },
   {
     name: "Test implementation",
-    value: 65,
+    value: 90,
   },
   {
     name: "Defect monitoring",
@@ -99,26 +101,22 @@ const skills = [
   },
   {
     name: "Test case preparation",
-    value: 65,
+    value: 70,
   },
   {
     name: "Documentation skills",
-    value: 65,
+    value: 90,
   },
   {
     name: "Regression Testing",
-    value: 70,
+    value: 75,
   },
   {
     name: "Test Planning",
-    value: 60,
+    value: 82,
   },
   {
     name: "Agile Environment",
-    value: 70,
-  },
-  {
-    name: "Debugging",
     value: 70,
   },
   {
@@ -155,9 +153,27 @@ const services = [
 
 const education = [
   {
-    Institution: "Skill Soft",
-    Course: "ISTQB Certified Tester Foundation Level",
-    Date: "December 2022 - January 2023",
+    Institution: "ISTQB",
+    Course: "ISTQB Tester Test Automation Engineer (CT-TAE)",
+    Date: "September 2023 ",
+  },
+
+  {
+    Institution: "ISTQB",
+    Course: "ISTQB Certified Tester Foundation Level (CTFL)",
+    Date: "February 2023",
+  },
+
+  {
+    Institution: "PSM",
+    Course: "Professional Scrum Master™ II (PSM II)",
+    Date: "September 2023",
+  },
+  
+  {
+    Institution: "PSM",
+    Course: "Professional Scrum Master™ I (PSM I)",
+    Date: "September 2023",
   },
 
   {
@@ -210,13 +226,19 @@ const certificationLogo = [
   {
     img:  "/img/ISTQB.png",
   },
-  // {
-  //   img: "/img/ISTQB.png",
 
-  // },
-  // {
-  //   img:  "/img/ISTQB.png",
-  // },
+  {
+    img:  "/img/ISTQB2.png",
+  },
+
+  {
+    img:  "/img/PSMI.png",
+  },
+
+  {
+    img:  "/img/PSMII.png",
+  },
+
 ];
 
 const contactme = [
