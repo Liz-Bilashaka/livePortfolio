@@ -13,7 +13,7 @@ export const ConfigProvider = ({ children }) => {
   useEffect(() => {
     const fetchConfig = async () => {
       try {
-        const response = await fetch(origin+'/storage/content_option.json');
+        const response = await fetch(window.location.href+'/storage/content_option.json');
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
