@@ -8,9 +8,16 @@ import {
   FaYoutube,
   FaTwitch,
 } from "react-icons/fa";
-import { socialprofils } from "../../content_option";
+import { useConfig } from '../../lib/ConfigProvider';
 
 export const Socialicons = (params) => {
+  const { config, loading } = useConfig();
+
+  if (loading) return <div>Loading...</div>;
+  if (!config) return <div>No config data available</div>;
+
+  const {socialprofils} = config;
+
   return (
     <div className="stick_follow_icon">
       <ul>
