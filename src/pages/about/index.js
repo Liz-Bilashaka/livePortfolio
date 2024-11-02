@@ -2,16 +2,16 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  dataabout,
-  meta,
-  worktimeline,
-  skills,
-  services,
-  education,
-} from "../../content_option";
+import { useConfig } from "../../lib/ConfigProvider";
 
 export const About = () => {
+  const { config, loading } = useConfig();
+
+  if (loading) return <div>Loading...</div>;
+  if (!config) return <div>No config data available</div>;
+
+  const { dataabout, meta, worktimeline, skills, services, education }  = config;
+  
   return (
     <HelmetProvider>
       <Container className="About-header">

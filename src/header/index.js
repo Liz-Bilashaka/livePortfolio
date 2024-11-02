@@ -1,11 +1,18 @@
 import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
-import { logotext, socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
+import { useConfig } from '../lib/ConfigProvider';
 
 const Headermain = () => {
+  const { config, loading } = useConfig();
+
   const [isActive, setActive] = useState("false");
+
+  if (loading) return <div>Loading...</div>;
+  if (!config) return <div>No config data available</div>;
+
+  const { logotext, socialprofils} = config;
 
   const handleToggle = () => {
     setActive(!isActive);

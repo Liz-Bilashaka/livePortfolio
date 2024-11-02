@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
-import { introdata, meta, certificationLogo} from "../../content_option";
+import { useConfig } from "../../lib/ConfigProvider";
 
 // pages
 import { About } from "../about";
@@ -11,7 +11,13 @@ import { Portfolio } from "../portfolio";
 
 export const Home = () => {
   const downloadCV = process.env.PUBLIC_URL + "/cv/Liz Bilashaka Resume.pdf";
+  const { config, loading } = useConfig();
 
+  if (loading) return <div>Loading...</div>;
+  if (!config) return <div>No config data available</div>;
+
+  const { meta, introdata, certificationLogo }  = config;
+  
   return (
     <HelmetProvider>
       <section id="home" className="home">
