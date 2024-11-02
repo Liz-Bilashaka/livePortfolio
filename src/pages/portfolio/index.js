@@ -2,9 +2,15 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import { useConfig } from '../../lib/ConfigProvider';
 
 export const Portfolio = () => {
+  const { config, loading } = useConfig();
+
+  if (loading) return <div>Loading...</div>;
+  if (!config) return <div>No config data available</div>;
+
+  const { dataportfolio, meta } = config;
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -26,7 +32,7 @@ export const Portfolio = () => {
                 <img src={process.env.PUBLIC_URL + data.img} alt="" />
                 <div className="content">
                   <p>{data.desctiption}</p>
-                  <a href={data.link} target="_blank" hout rel="noreferrer">view project</a>
+                  <a href={data.link} target="_blank" rel="noreferrer">view project</a>
                 </div>
               </div>
             );

@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import { meta } from "../../content_option";
 import { Container, Row, Col, } from "react-bootstrap";
-import { contactConfig } from "../../content_option";
+import { useConfig } from "../../lib/ConfigProvider";
 
 export const ContactUs = () => {
   const [formData] = useState({
@@ -15,6 +14,13 @@ export const ContactUs = () => {
     alertmessage: "",
     variant: "",
   });
+
+  const { config, loading } = useConfig();
+
+  if (loading) return <div>Loading...</div>;
+  if (!config) return <div>No config data available</div>;
+
+  const { meta, contactConfig }  = config;
 
   return (
     <HelmetProvider>
